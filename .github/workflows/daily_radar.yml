@@ -1,18 +1,25 @@
 name: Daily Game Radar
 on:
   schedule:
-    - cron: "30 19 * * *"  
+    - cron: "30 19 * * *" # Runs daily at 01:00 IST (19:30 UTC)
   workflow_dispatch:
 
 permissions:
   contents: write
+  pages: write
+  id-token: write
+  actions: read
+
+concurrency:
+  group: "pages"
+  cancel-in-progress: false
 
 jobs:
   radar:
     runs-on: ubuntu-latest
     timeout-minutes: 330
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v5
       - uses: actions/setup-python@v5
         with:
           python-version: "3.13"
@@ -28,7 +35,7 @@ jobs:
           gh release download latest-data -p "radar.db" -D data --clobber || echo "Starting fresh DB"
 
       - name: Run daily pipeline
-        run: python -m radar run --mode daily --enrich-workers 2
+        run: python -u -m radar run --mode daily --enrich-workers 2
 
       - name: Checkpoint DB and upload to Release
         if: always()
@@ -46,3 +53,25 @@ jobs:
             zip -r reports.zip reports/
             gh release upload latest-data reports.zip --clobber
           fi
+
+      - name: Prepare Pages folder
+        run: |
+          mkdir -p _site
+          cp reports/latest.html _site/index.html
+          cp -f reports/latest.csv reports/latest.txt _site/ 2>/dev/null || true
+
+      - name: Upload Pages artifact
+        uses: actions/upload-pages-artifact@v5
+        with:
+          path: "_site"
+
+  deploy:
+    needs: radar
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v5
