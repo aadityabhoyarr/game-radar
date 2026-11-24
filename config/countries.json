@@ -1,0 +1,16 @@
+{
+  "western": [
+    {"code": "US", "name": "United States", "weight": 1.0, "lang": "en"},
+    {"code": "GB", "name": "United Kingdom", "weight": 0.8, "lang": "en"},
+    {"code": "DE", "name": "Germany", "weight": 0.8, "lang": "de"},
+    {"code": "CA", "name": "Canada", "weight": 0.7, "lang": "en"},
+    {"code": "AU", "name": "Australia", "weight": 0.7, "lang": "en"},
+    {"code": "FR", "name": "France", "weight": 0.7, "lang": "fr"}
+  ],
+  "eastern": [
+    {"code": "JP", "name": "Japan", "weight": 1.0, "lang": "ja"},
+    {"code": "KR", "name": "South Korea", "weight": 0.9, "lang": "ko"},
+    {"code": "TW", "name": "Taiwan", "weight": 0.6, "lang": "zh_TW"},
+    {"code": "SG", "name": "Singapore", "weight": 0.4, "lang": "en"}
+  ]
+}

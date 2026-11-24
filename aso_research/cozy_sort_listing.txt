@@ -1,0 +1,52 @@
+# Metadata Package for "Cozy Sort: Tidy Room Puzzle"
+
+## Title (27 / 30 Characters)
+Cozy Sort: Tidy Room Puzzle
+
+## Short Description Options (<= 80 Characters)
+Option 1 (Primary Recommended - 78 chars):
+Sort cozy clutter into neat boxes, decorate rooms, and relax at your own pace.
+
+Option 2 (Action / Packing Focus - 79 chars):
+Pack matching items in labeled boxes, tidy messy rooms, and decorate with calm.
+
+Option 3 (Genre & Keyword Explicit - 80 chars):
+A cozy room sort puzzle. Pack labeled boxes, unclutter spaces, and design homes.
+
+Option 4 (De-stress / Pacing Focus - 75 chars):
+Tidy up cozy rooms one box at a time. Spot items, plan moves, and decorate.
+
+Option 5 (Discovery & Makeover Focus - 75 chars):
+Spot hidden items, pack organized boxes, and enjoy relaxing room makeovers.
+
+## Long Description (3,050 / 4,000 Characters)
+Step into a world of peaceful organizing with Cozy Sort: Tidy Room Puzzle. When everyday life feels hectic, take a mindful breath and immerse yourself in charming, lived-in spaces waiting for your caring touch. Your journey is delightfully simple yet deeply satisfying: spot matching everyday items nestled in layered piles, pack them neatly into labeled boxes, and transform messy rooms into calm, aesthetic havens.
+
+A Rewarding Room Sort Experience
+Every level brings a handcrafted, themed environment—from a sun-drenched living room with scattered books and plush pillows, to a bustling bakery counter, an artisan coffee cafe, or a plant-filled bedroom studio. Look through the cozy clutter to find what each storage box needs. Items without an immediate home wait comfortably in your temporary holding slots. Because slots are limited and items are stacked in layered piles, planning which objects to clear first keeps your trays open and your mind engaged.
+
+Tidy Up, Then Decorate Your Dream Space!
+Unlike ordinary sorting games where tidying is the end, here completing a room is just the beginning. Once every item is neatly packed away, unlock the pure joy of room restoration. Spend your earned stars to style each interior with aesthetic furniture, hang warm fairy lights, place vibrant house plants, and pick soothing color palettes. Watch each space transition from scattered chaos into a warm, personalized sanctuary you will love revisiting.
+
+Designed for Comfort, Fairness, and Fun
+We built Cozy Sort to fix the frustrations found in traditional sorting puzzle games:
+- Fair Storage Trays: Enjoy generous holding slots so you have room for thoughtful, strategic moves without feeling unfairly trapped.
+- Undo Grace Moves: Tapped the wrong item? Use gentle undo options so a single accidental touch never ruins a relaxing puzzle run.
+- Crystal-Clear Categories: Intuitively labeled boxes (Books, Toys, Kitchen, Stationery) eliminate guesswork so every item feels logical and satisfying to pack.
+- Bite-Sized Rooms: Enjoy perfectly balanced levels crafted to be completed in 5 to 10 relaxing minutes—no exhausting multi-hour grinds.
+- Battery & Performance Friendly: Lightweight rendering keeps your device cool and your battery lasting longer during extended cozy sessions.
+- No Punishing Energy Timers: Play whenever you need a peaceful break. There are no arbitrary lives or timers blocking you from playing.
+
+Mindful Pacing & Player-First Integrity
+Unwind to soft acoustic melodies and tactile, soothing sound effects with every tap and box closure. There are no punishing countdown timers rushing your decisions. If you ever find your temporary slots full on a tricky layout, optional rewarded ads are available to grant extra holding slots or helpful hints. You will never lose your puzzle progress if you decline—your room state is always preserved so you can return with fresh eyes whenever you are ready.
+
+Find your harmony one box at a time. Grab a crate, clear the floor, and enjoy the soothing art of room decluttering today.
+
+## Google Play Publishing Taxonomy
+- Primary Application Category: Puzzle (GAME_PUZZLE)
+- 5 Optimal Publishing Tags:
+  1. Puzzle
+  2. Casual
+  3. Brain teaser
+  4. Stylized
+  5. Single player

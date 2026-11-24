@@ -1,0 +1,78 @@
+{
+  "max_age_days": 90,
+  "chart_depth": 200,
+  "rate_limit_rps": 1.5,
+  "jitter_min": 0.2,
+  "jitter_max": 0.6,
+  "max_retries": 5,
+  "cooldown_seconds": 60,
+  "proxies": [],
+  "review_caps": {
+    "standard": 8000,
+    "full": 20000
+  },
+  "review_games_cap": {
+    "standard": 60,
+    "full": 300
+  },
+  "enrich_cap": {
+    "standard": 1500,
+    "full": 0
+  },
+  "enrich_fresh_days": 7,
+  "enrich_workers": 1,
+  "chart_limits": {
+    "standard": 200,
+    "full": 200
+  },
+  "feature_switches": {
+    "keywords": true,
+    "trends": true,
+    "why_growing": true,
+    "developer_pages": true
+  },
+  "server_host": "127.0.0.1",
+  "server_port": 8765,
+  "categories": [
+    "GAME",
+    "GAME_ACTION",
+    "GAME_ADVENTURE",
+    "GAME_ARCADE",
+    "GAME_BOARD",
+    "GAME_CARD",
+    "GAME_CASINO",
+    "GAME_CASUAL",
+    "GAME_EDUCATIONAL",
+    "GAME_MUSIC",
+    "GAME_PUZZLE",
+    "GAME_RACING",
+    "GAME_ROLE_PLAYING",
+    "GAME_SIMULATION",
+    "GAME_SPORTS",
+    "GAME_STRATEGY",
+    "GAME_TRIVIA",
+    "GAME_WORD"
+  ],
+  "collections": [
+    {
+      "id": "topselling_new_free",
+      "name": "TOP_NEW_FREE",
+      "weight": 1.0
+    },
+    {
+      "id": "movers_shakers",
+      "name": "TRENDING",
+      "weight": 1.0
+    },
+    {
+      "id": "topgrossing",
+      "name": "TOP_GROSSING",
+      "weight": 1.2
+    },
+    {
+      "id": "topselling_free",
+      "name": "TOP_FREE",
+      "weight": 0.8
+    }
+  ]
+}

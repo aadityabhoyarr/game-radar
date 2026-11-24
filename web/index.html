@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Game Radar - Indie Market Scanner</title>
+  <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+  <header>
+    <div class="logo-area">
+      <div style="font-size:24px;">🎯</div>
+      <div>
+        <div class="logo-title">GAME RADAR</div>
+        <div style="font-size:11px; color:var(--text-muted)">Indie Game Growth & Early Trend Hunter</div>
+      </div>
+    </div>
+    <nav class="nav-tabs">
+      <button class="nav-btn active" data-tab="tab-radar">Radar</button>
+      <button class="nav-btn" data-tab="tab-subgenres">Sub-genres</button>
+      <button class="nav-btn" data-tab="tab-niches">Keywords & Niches</button>
+      <button class="nav-btn" data-tab="tab-runs">Runs & Worker</button>
+      <button class="nav-btn" data-tab="tab-reports">Reports</button>
+    </nav>
+  </header>
+
+  <main class="main-content">
+    <!-- TAB 1: RADAR -->
+    <section id="tab-radar" class="tab-pane active">
+      <div class="card">
+        <div class="filter-grid">
+          <div class="filter-group">
+            <label>Region Group</label>
+            <select id="filterGroup" class="form-control">
+              <option value="all">All (Tier-1 West + East)</option>
+              <option value="west">Western Tier-1 (US/GB/DE/CA/AU/FR)</option>
+              <option value="east">Eastern Tier-1 (JP/KR/TW/SG)</option>
+            </select>
+          </div>
+          <div class="filter-group">
+            <label>Category</label>
+            <select id="filterCategory" class="form-control">
+              <option value="">All Categories</option>
+            </select>
+          </div>
+          <div class="filter-group">
+            <label>Sub-genre</label>
+            <select id="filterSubgenre" class="form-control">
+              <option value="">All Sub-genres</option>
+            </select>
+          </div>
+          <div class="filter-group">
+            <label>Min Trend Score (<span id="minScoreVal">0</span>)</label>
+            <input type="range" id="filterMinScore" min="0" max="100" value="0" class="form-control" style="padding:0">
+          </div>
+          <div class="filter-group">
+            <label>Max Age (<span id="maxAgeVal">90</span> days)</label>
+            <input type="range" id="filterMaxAge" min="1" max="90" value="90" class="form-control" style="padding:0">
+          </div>
+          <div class="filter-group">
+            <label>Confidence</label>
+            <select id="filterConfidence" class="form-control">
+              <option value="">Any Confidence</option>
+              <option value="HIGH">High (Installs &ge; 8d)</option>
+              <option value="MEDIUM">Medium (Reviews proxy)</option>
+              <option value="LOW">Low</option>
+            </select>
+          </div>
+        </div>
+
+        <div class="filter-grid" style="margin-bottom:0">
+          <div class="filter-group" style="grid-column: 1 / -1;">
+            <label>Search by Name, Developer, or Package ID</label>
+            <input type="text" id="filterSearch" class="form-control" placeholder="Type game title, developer or package id...">
+          </div>
+        </div>
+
+        <div class="checkbox-group">
+          <label class="checkbox-label">
+            <input type="checkbox" id="hideBig" checked> Hide Big Publishers
+          </label>
+          <label class="checkbox-label">
+            <input type="checkbox" id="hideHyper" checked> Hide Hyper-casual
+          </label>
+          <label class="checkbox-label">
+            <input type="checkbox" id="hideFranchise" checked> Hide Franchises
+          </label>
+          <label class="checkbox-label">
+            <input type="checkbox" id="hidePaid"> Hide Paid Traffic Suspects
+          </label>
+        </div>
+      </div>
+
+      <div class="card" style="padding:0; overflow-x:auto;">
+        <table id="radarTable">
+          <thead>
+            <tr>
+              <th data-col="display_score">Trend Score ▾</th>
+              <th data-col="title">Title & ID</th>
+              <th data-col="developer">Developer</th>
+              <th data-col="category">Category / Tags</th>
+              <th data-col="age_days">Age</th>
+              <th data-col="real_installs">Installs</th>
+              <th data-col="v7">V7 Speed</th>
+              <th data-col="confidence">Confidence</th>
+              <th>Flags</th>
+              <th>Actions</th>
+            </tr>
+          </thead>
+          <tbody id="radarTableBody">
+            <tr><td colspan="10" style="text-align:center; padding:30px; color:var(--text-muted)">Loading radar data...</td></tr>
+          </tbody>
+        </table>
+      </div>
+    </section>
+
+    <!-- TAB 2: SUB-GENRES -->
+    <section id="tab-subgenres" class="tab-pane">
+      <div class="card">
+        <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:16px;">
+          <h2>Sub-genre 'Build Now' Rankings</h2>
+          <select id="sgGroupSelect" class="form-control" style="width:200px;">
+            <option value="all">Global (All)</option>
+            <option value="west">Western Tier-1</option>
+            <option value="east">Eastern Tier-1</option>
+          </select>
+        </div>
+        <table id="subgenreTable">
+          <thead>
+            <tr>
+              <th>Rank</th>
+              <th>Sub-genre Tag</th>
+              <th>Build Now Score</th>
+              <th>Momentum (35)</th>
+              <th>Breadth (15)</th>
+              <th>Openness (20)</th>
+              <th>Demand (20)</th>
+              <th>Monetization (10)</th>
+              <th>Evidence Games</th>
+            </tr>
+          </thead>
+          <tbody id="subgenreTableBody"></tbody>
+        </table>
+      </div>
+    </section>
+
+    <!-- TAB 3: KEYWORDS & NICHES -->
+    <section id="tab-niches" class="tab-pane">
+      <div class="card">
+        <h2>Keyword Opportunity Radar</h2>
+        <table id="keywordsTable">
+          <thead>
+            <tr>
+              <th>Keyword</th>
+              <th>Prefix Length</th>
+              <th>Opportunity Score</th>
+              <th>Median Installs</th>
+              <th>Brand Share</th>
+              <th>Exact Matches</th>
+              <th>Cohort in Top 10</th>
+            </tr>
+          </thead>
+          <tbody id="keywordsTableBody"></tbody>
+        </table>
+      </div>
+
+      <div class="card">
+        <h2>Google Trends Interest (12-Week Slope)</h2>
+        <table id="trendsTable">
+          <thead>
+            <tr>
+              <th>Keyword</th>
+              <th>Region</th>
+              <th>Latest Value (0-100)</th>
+              <th>12-Week Slope</th>
+            </tr>
+          </thead>
+          <tbody id="trendsTableBody"></tbody>
+        </table>
+      </div>
+    </section>
+
+    <!-- TAB 4: RUNS & WORKER -->
+    <section id="tab-runs" class="tab-pane">
+      <div class="card" style="display:flex; justify-content:space-between; align-items:center;">
+        <div>
+          <h2>Worker Process</h2>
+          <div style="color:var(--text-muted); font-size:12px;">Rule 8: Only worker touches Google Play. Dashboard reads the SQLite database.</div>
+        </div>
+        <div style="display:flex; gap:10px;">
+          <select id="workerMode" class="form-control" style="width:140px;">
+            <option value="standard">Standard Mode</option>
+            <option value="full">Full Mode</option>
+          </select>
+          <button id="btnRunWorker" class="btn btn-primary">⚡ Run Now</button>
+        </div>
+      </div>
+
+      <div class="card">
+        <h3 style="margin-bottom:10px;">Live Worker Output</h3>
+        <div id="liveLogBox" class="log-box">Waiting for worker activity...</div>
+      </div>
+
+      <div class="card">
+        <h3 style="margin-bottom:12px;">Run History</h3>
+        <table id="runsTable">
+          <thead>
+            <tr><th>Run ID</th><th>Mode</th><th>Status</th><th>Start Time</th><th>Duration</th><th>Requests</th><th>Failures</th></tr>
+          </thead>
+          <tbody id="runsTableBody"></tbody>
+        </table>
+      </div>
+    </section>
+
+    <!-- TAB 5: REPORTS -->
+    <section id="tab-reports" class="tab-pane">
+      <div class="card">
+        <h2>Generated Market Intelligence Reports</h2>
+        <div style="color:var(--text-muted); font-size:12px; margin-bottom:16px;">
+          HTML, Markdown-style plain text, and CSV files generated after each run.
+        </div>
+        <table id="reportsTable">
+          <thead>
+            <tr><th>Filename</th><th>Size</th><th>Generated Date</th><th>Actions</th></tr>
+          </thead>
+          <tbody id="reportsTableBody"></tbody>
+        </table>
+      </div>
+    </section>
+  </main>
+
+  <!-- GAME DETAIL MODAL -->
+  <div id="gameModal" class="modal-overlay">
+    <div class="modal-card">
+      <button class="modal-close" onclick="closeGameModal()">&times;</button>
+      <div id="gameModalContent">Loading...</div>
+    </div>
+  </div>
+
+  <script src="/static/app.js"></script>
+</body>
+</html>

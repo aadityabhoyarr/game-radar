@@ -1,0 +1,42 @@
+[
+  {
+    "rank": 1,
+    "title": "Room Sort - Floor Plan Game",
+    "developer": "Gamincat",
+    "appId": null,
+    "installs": "10,000,000+",
+    "score": 4.486014
+  },
+  {
+    "rank": 2,
+    "title": "Amochiroom Puzzle: Room Sort",
+    "developer": "ABF ALPENHOF",
+    "appId": "com.gamefactory.roomsort",
+    "installs": "1,000,000+",
+    "score": 4.75419
+  },
+  {
+    "rank": 3,
+    "title": "Tidy Nest: Room Sort",
+    "developer": "Seikami",
+    "appId": "com.seikami.cozy.find",
+    "installs": "500+",
+    "score": 5
+  },
+  {
+    "rank": 4,
+    "title": "Room Logic: Home Sort & Decor",
+    "developer": "Slash Games Teknoloji Anonim Sirketi",
+    "appId": "com.slash.roomsort",
+    "installs": "1,000+",
+    "score": null
+  },
+  {
+    "rank": 5,
+    "title": "Stylish Room: Decorating Games",
+    "developer": "Gloryway Puzzle",
+    "appId": "room.house.design.home.organize.decor",
+    "installs": "1,000,000+",
+    "score": 4.409396
+  }
+]

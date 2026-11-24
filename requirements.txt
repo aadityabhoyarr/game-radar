@@ -1,0 +1,9 @@
+google-play-scraper>=1.2.7
+gplay-scraper>=1.0.6
+requests>=2.31.0
+fastapi>=0.100.0
+uvicorn>=0.20.0
+pytest>=7.4.0
+pytrends>=4.9.2
+pandas>=2.0.0
+numpy>=1.24.0

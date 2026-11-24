@@ -1,0 +1,946 @@
+[
+  {
+    "keyword": "room sort",
+    "cluster": "room sort",
+    "lang": "en",
+    "autocompletes": [
+      "room sort",
+      "room sort floor plan game",
+      "room sort offline",
+      "room sort game",
+      "room sort floor"
+    ],
+    "openness": "open",
+    "top_apps_count": 10,
+    "top3_apps": [
+      "Room Sort - Floor Plan Game (10,000,000+)",
+      "Amochiroom Puzzle: Room Sort (1,000,000+)",
+      "Tidy Nest: Room Sort (500+)"
+    ]
+  },
+  {
+    "keyword": "room sort puzzle",
+    "cluster": "room sort",
+    "lang": "en",
+    "autocompletes": [
+      "room sort puzzle",
+      "room sort - floor plan puzzle"
+    ],
+    "openness": "open",
+    "top_apps_count": 10,
+    "top3_apps": [
+      "Room Sort - Floor Plan Game (10,000,000+)",
+      "Amochiroom Puzzle: Room Sort (1,000,000+)",
+      "Mochiroom Puzzle: Room Sort (5,000+)"
+    ]
+  },
+  {
+    "keyword": "room sort game",
+    "cluster": "room sort",
+    "lang": "en",
+    "autocompletes": [
+      "room sort game",
+      "room sort floor plan game"
+    ],
+    "openness": "open",
+    "top_apps_count": 10,
+    "top3_apps": [
+      "Room Sort - Floor Plan Game (10,000,000+)",
+      "Amochiroom Puzzle: Room Sort (1,000,000+)",
+      "Tidy Nest: Room Sort (500+)"
+    ]
+  },
+  {
+    "keyword": "tidy room",
+    "cluster": "tidy up",
+    "lang": "en",
+    "autocompletes": [
+      "tidy room",
+      "tidy room decor house",
+      "tidy room offline",
+      "tidy room calm and chill",
+      "tidy room game"
+    ],
+    "openness": "open",
+    "top_apps_count": 10,
+    "top3_apps": [
+      "Cozy Room:Tidy Tales (500,000+)",
+      "Tidy Room: Decor House (100,000+)",
+      "Tidy: House Cleaning Schedule (100,000+)"
+    ]
+  },
+  {
+    "keyword": "tidy room game",
+    "cluster": "tidy up",
+    "lang": "en",
+    "autocompletes": [
+      "tidy room game"
+    ],
+    "openness": "open",
+    "top_apps_count": 10,
+    "top3_apps": [
+      "Cozy Room:Tidy Tales (500,000+)",
+      "Tidy Room: Decor House (100,000+)",
+      "Perfect Tidy (10,000,000+)"
+    ]
+  },
+  {
+    "keyword": "tidy up",
+    "cluster": "tidy up",
+    "lang": "en",
+    "autocompletes": [
+      "tidy up",
+      "tidy up games",
+      "tidy up toy store",
+      "tidy up books",
+      "tidy up everything"
+    ],
+    "openness": "open",
+    "top_apps_count": 10,
+    "top3_apps": [
+      "Tidy Up Books: Magic Librarian (100,000+)",
+      "Tidy Up - Satisfeel ASMR (10,000,000+)",
+      "Oops! Tidy Up (1,000,000+)"
+    ]
+  },
+  {
+    "keyword": "tidy up 3d",
+    "cluster": "tidy up",
+    "lang": "en",
+    "autocompletes": [
+      "tidy up 3d",
+      "tidy up supermarket chaos 3d"
+    ],
+    "openness": "open",
+    "top_apps_count": 10,
+    "top3_apps": [
+      "Clean Up 3D (1,000,000+)",
+      "Tidy Up Supermarket Chaos 3D (10,000+)",
+      "Tidy Up - Satisfeel ASMR (10,000,000+)"
+    ]
+  },
+  {
+    "keyword": "tidy house",
+    "cluster": "tidy up",
+    "lang": "en",
+    "autocompletes": [
+      "tidy house",
+      "tidy house cleaning",
+      "tidy house cleaning schedule",
+      "tidy house game",
+      "diy tidy house"
+    ],
+    "openness": "open",
+    "top_apps_count": 10,
+    "top3_apps": [
+      "Tidy: House Cleaning Schedule (100,000+)",
+      "Tody - Smarter Cleaning (1,000,000+)",
+      "TIDY - Cleaning & Maintenance (10,000+)"
+    ]
+  },
+  {
+    "keyword": "tidy house puzzle",
+    "cluster": "tidy up",
+    "lang": "en",
+    "autocompletes": [],
+    "openness": "dominated",
+    "top_apps_count": 10,
+    "top3_apps": [
+      "Tidy Puzzle: Perfect Satisfy (5,000,000+)",
+      "SatisPuzzle: Tidy Up (10,000,000+)",
+      "Tidy Home: Cozy Decor (1,000,000+)"
+    ]
+  },
+  {
+    "keyword": "clean and tidy",
+    "cluster": "tidy up",
+    "lang": "en",
+    "autocompletes": [
+      "clean and tidy",
+      "clean and tidy asmr",
+      "clean and tidy game"
+    ],
+    "openness": "open",
+    "top_apps_count": 10,
+    "top3_apps": [
+      "TIDY - Cleaning & Maintenance (10,000+)",
+      "Tidy: House Cleaning Schedule (100,000+)",
+      "Perfect Tidy (10,000,000+)"
+    ]
+  },
+  {
+    "keyword": "organize room",
+    "cluster": "organize",
+    "lang": "en",
+    "autocompletes": [
+      "organize room",
+      "organize room games",
+      "organize my room",
+      "organize your room"
+    ],
+    "openness": "open",
+    "top_apps_count": 9,
+    "top3_apps": [
+      "Home Planner AI: Room Interior (10,000,000+)",
+      "Cozy Room:Tidy Tales (500,000+)",
+      "Stylish Room: Decorating Games (1,000,000+)"
+    ]
+  },
+  {
+    "keyword": "organizing games",
+    "cluster": "organize",
+    "lang": "en",
+    "autocompletes": [
+      "organizing games",
+      "organizing games offline",
+      "organizing games make up",
+      "organizing games offline make up",
+      "organizing games offline house"
+    ],
+    "openness": "open",
+    "top_apps_count": 10,
+    "top3_apps": [
+      "Unpacking (50,000+)",
+      "A Little to the Left (1,000,000+)",
+      "Goods Sorting Game (1,000,000+)"
+    ]
+  },
+  {
+    "keyword": "room organizer",
+    "cluster": "organize",
+    "lang": "en",
+    "autocompletes": [
+      "room organizer",
+      "room organizer app",
+      "room organizer game",
+      "room organizer app free",
+      "room organizer ai"
+    ],
+    "openness": "moderate",
+    "top_apps_count": 10,
+    "top3_apps": [
+      "Room Organizer AI - NeatPilot (5,000+)",
+      "Home Planner AI: Room Interior (10,000,000+)",
+      "Planner 5D: AI Home Design (50,000,000+)"
+    ]
+  },
+  {
+    "keyword": "organize it",
+    "cluster": "organize",
+    "lang": "en",
+    "autocompletes": [
+      "organize it",
+      "organize it app",
+      "organize it tidy mind game",
+      "organize items",
+      "organize it game"
+    ],
+    "openness": "moderate",
+    "top_apps_count": 10,
+    "top3_apps": [
+      "Organize-it! (5,000+)",
+      "Evernote - Note Organizer (100,000,000+)",
+      "Cozi Family Organizer (5,000,000+)"
+    ]
+  },
+  {
+    "keyword": "closet organizer",
+    "cluster": "organize",
+    "lang": "en",
+    "autocompletes": [
+      "closet organizer",
+      "closet organizer game offline",
+      "closet organizer app",
+      "closet organizer free",
+      "closet organizer game"
+    ],
+    "openness": "moderate",
+    "top_apps_count": 10,
+    "top3_apps": [
+      "Indyx: Wardrobe & Outfit App (100,000+)",
+      "Fits – Outfit Planner & Closet (1,000,000+)",
+      "Whering:Digital Closet Stylist (5,000,000+)"
+    ]
+  },
+  {
+    "keyword": "declutter",
+    "cluster": "declutter",
+    "lang": "en",
+    "autocompletes": [
+      "declutter",
+      "declutter your home free",
+      "decluttering app free",
+      "declutter the mind",
+      "declutter selling app"
+    ],
+    "openness": "open",
+    "top_apps_count": 10,
+    "top3_apps": [
+      "Declutter Quest: Clean House (1,000+)",
+      "Declutter The Mind Meditation (50,000+)",
+      "ADHD Cleaning & Declutter List (100+)"
+    ]
+  },
+  {
+    "keyword": "declutter room",
+    "cluster": "declutter",
+    "lang": "en",
+    "autocompletes": [
+      "room declutter"
+    ],
+    "openness": "open",
+    "top_apps_count": 10,
+    "top3_apps": [
+      "Declutter Quest: Clean House (1,000+)",
+      "Room Cleaning AI: Declutter (50+)",
+      "Room Reset: Tidy & Declutter (50+)"
+    ]
+  },
+  {
+    "keyword": "declutter game",
+    "cluster": "declutter",
+    "lang": "en",
+    "autocompletes": [
+      "declutter game"
+    ],
+    "openness": "dominated",
+    "top_apps_count": 10,
+    "top3_apps": [
+      "My Tidy Life (5,000,000+)",
+      "Tidy Master®:Hidden Objects (10,000,000+)",
+      "Tidy Everything! (100,000+)"
+    ]
+  },
+  {
+    "keyword": "declutter house",
+    "cluster": "declutter",
+    "lang": "en",
+    "autocompletes": [
+      "declutter house"
+    ],
+    "openness": "open",
+    "top_apps_count": 10,
+    "top3_apps": [
+      "Declutter Quest: Clean House (1,000+)",
+      "Tindy: Declutter & Clean House (100+)",
+      "House Chores Cleaning Schedule (500,000+)"
+    ]
+  },
+  {
+    "keyword": "goods sort",
+    "cluster": "goods sort",
+    "lang": "en",
+    "autocompletes": [
+      "goods sorting",
+      "goods sort",
+      "goods sorting games",
+      "goods sort game",
+      "goods sort match"
+    ],
+    "openness": "dominated",
+    "top_apps_count": 7,
+    "top3_apps": [
+      "Goods Sort™ - Goods Sorting (50,000,000+)",
+      "Goods Puzzle: Sort Challenge™ (50,000,000+)",
+      "Goods Sorting Game (1,000,000+)"
+    ]
+  },
+  {
+    "keyword": "goods sorting",
+    "cluster": "goods sort",
+    "lang": "en",
+    "autocompletes": [
+      "goods sorting",
+      "goods sorting games",
+      "goods sorting match 3",
+      "goods sorting no timer",
+      "goods sorting match 3 puzzle"
+    ],
+    "openness": "dominated",
+    "top_apps_count": 10,
+    "top3_apps": [
+      "Goods Puzzle: Sort Challenge™ (50,000,000+)",
+      "Goods Sorting Game (1,000,000+)",
+      "Goods 3D Sorting: Match Games (10,000,000+)"
+    ]
+  },
+  {
+    "keyword": "packing game",
+    "cluster": "packing game",
+    "lang": "en",
+    "autocompletes": [
+      "packing games",
+      "packing game offline",
+      "packing game packing game",
+      "packing game car",
+      "packing game franklin game"
+    ],
+    "openness": "open",
+    "top_apps_count": 10,
+    "top3_apps": [
+      "Packingdom (500,000+)",
+      "Unpacking (50,000+)",
+      "Cozy Packing Simulator (50,000+)"
+    ]
+  },
+  {
+    "keyword": "box packing",
+    "cluster": "packing game",
+    "lang": "en",
+    "autocompletes": [
+      "box packing game",
+      "box packing",
+      "box packing simulator",
+      "tiffin box packing game",
+      "gift box packing game"
+    ],
+    "openness": "open",
+    "top_apps_count": 10,
+    "top3_apps": [
+      "Boxmatics: Box Packaging Calc (500+)",
+      "Pack & Peek: Box Inventory (50+)",
+      "Box Maker Template Creator Pro (50,000+)"
+    ]
+  },
+  {
+    "keyword": "pack the room",
+    "cluster": "packing game",
+    "lang": "en",
+    "autocompletes": [],
+    "openness": "open",
+    "top_apps_count": 10,
+    "top3_apps": [
+      "Travel Packing List - PackMate (10,000+)",
+      "Travel & Pack: Packing Puzzle (500+)",
+      "AI Packing List - Packwise (1,000+)"
+    ]
+  },
+  {
+    "keyword": "box sort",
+    "cluster": "packing game",
+    "lang": "en",
+    "autocompletes": [
+      "box sort",
+      "box sort game",
+      "ball box sort",
+      "pharaoh box sort",
+      "word box sort and solitaire"
+    ],
+    "openness": "open",
+    "top_apps_count": 10,
+    "top3_apps": [
+      "Ball Box Sort (10,000+)",
+      "Juice Box Sort (100,000+)",
+      "Puzzle Box: Sort & Match (10+)"
+    ]
+  },
+  {
+    "keyword": "cozy puzzle",
+    "cluster": "cozy puzzle",
+    "lang": "en",
+    "autocompletes": [
+      "cozy puzzle games",
+      "cozy puzzle",
+      "cozy puzzle games offline",
+      "yarn connect cozy puzzle",
+      "pixel yarn cozy puzzle"
+    ],
+    "openness": "open",
+    "top_apps_count": 10,
+    "top3_apps": [
+      "Cozy Sort: Relaxing Puzzle (10,000+)",
+      "Tile Park: Cozy Puzzles (50,000,000+)",
+      "Cozy Ropes: Relaxing Knitting (1,000,000+)"
+    ]
+  },
+  {
+    "keyword": "cozy games",
+    "cluster": "cozy puzzle",
+    "lang": "en",
+    "autocompletes": [
+      "cozy games",
+      "cozy games offline",
+      "cozy games offline for girls",
+      "cozy games cooking",
+      "cozy games for girls"
+    ],
+    "openness": "open",
+    "top_apps_count": 10,
+    "top3_apps": [
+      "Cats&Soup: Relaxing Cozy Games (10,000,000+)",
+      "Cozy Sort: Relaxing Puzzle (10,000+)",
+      "Home Garden Lulu & cozy games (1,000,000+)"
+    ]
+  },
+  {
+    "keyword": "cozy sort",
+    "cluster": "cozy puzzle",
+    "lang": "en",
+    "autocompletes": [
+      "cozy sort coins",
+      "cozy sorting games",
+      "cozy sort",
+      "cozy sorting",
+      "cozy sort flora"
+    ],
+    "openness": "open",
+    "top_apps_count": 10,
+    "top3_apps": [
+      "Cozy Sort: Relaxing Puzzle (10,000+)",
+      "CozySort: Coins (1,000,000+)",
+      "Cozy Sort Match Color (1,000+)"
+    ]
+  },
+  {
+    "keyword": "cozy room",
+    "cluster": "cozy puzzle",
+    "lang": "en",
+    "autocompletes": [
+      "cozy room",
+      "cozy room design",
+      "cozy room tidy tales",
+      "cozy room offline",
+      "cozy room decor"
+    ],
+    "openness": "open",
+    "top_apps_count": 10,
+    "top3_apps": [
+      "Cozy Room:Tidy Tales (500,000+)",
+      "Cozy Room-Sticker Games (100,000+)",
+      "My Cozy Room (100+)"
+    ]
+  },
+  {
+    "keyword": "sort puzzle",
+    "cluster": "sort puzzle",
+    "lang": "en",
+    "autocompletes": [
+      "sort puzzle",
+      "sort puzzle games",
+      "sort puzzle fun ball",
+      "sort puzzle girl",
+      "sort puzzle offline game"
+    ],
+    "openness": "dominated",
+    "top_apps_count": 10,
+    "top3_apps": [
+      "Coin Sort Puzzle - Color Game (10,000+)",
+      "Fish Sort Puzzle (5,000,000+)",
+      "Get Color - Water Sort Puzzle (50,000,000+)"
+    ]
+  },
+  {
+    "keyword": "sort puzzle games",
+    "cluster": "sort puzzle",
+    "lang": "en",
+    "autocompletes": [
+      "sort puzzle games",
+      "sort puzzle games offline",
+      "color water sort puzzle games",
+      "water sort puzzle games",
+      "color bird sort puzzle games"
+    ],
+    "openness": "dominated",
+    "top_apps_count": 10,
+    "top3_apps": [
+      "Fish Sort Puzzle (5,000,000+)",
+      "Magic Sort! (10,000,000+)",
+      "Goods Puzzle: Sort Challenge™ (50,000,000+)"
+    ]
+  },
+  {
+    "keyword": "sorting games",
+    "cluster": "sort puzzle",
+    "lang": "en",
+    "autocompletes": [
+      "sorting games",
+      "sorting games for adults",
+      "sorting games no ads",
+      "sorting games no timer",
+      "sorting games offline"
+    ],
+    "openness": "dominated",
+    "top_apps_count": 10,
+    "top3_apps": [
+      "Goods 3D Sorting: Match Games (10,000,000+)",
+      "Goods Sorting Game (1,000,000+)",
+      "Goods Puzzle: Sort Challenge™ (50,000,000+)"
+    ]
+  },
+  {
+    "keyword": "item sort puzzle",
+    "cluster": "sort puzzle",
+    "lang": "en",
+    "autocompletes": [],
+    "openness": "open",
+    "top_apps_count": 10,
+    "top3_apps": [
+      "Item Escape - Goods 3D Sorting (100,000+)",
+      "Item Sort: Goods Sorting Games (100,000+)",
+      "Item Sort (500+)"
+    ]
+  },
+  {
+    "keyword": "satisfying sort",
+    "cluster": "satisfying",
+    "lang": "en",
+    "autocompletes": [
+      "satisfying sorting games",
+      "satisfying sort"
+    ],
+    "openness": "dominated",
+    "top_apps_count": 10,
+    "top3_apps": [
+      "Find Sort Match: Puzzle game (5,000,000+)",
+      "Category Sort (1,000,000+)",
+      "Magic Sort! (10,000,000+)"
+    ]
+  },
+  {
+    "keyword": "satisfying cleaning",
+    "cluster": "satisfying",
+    "lang": "en",
+    "autocompletes": [
+      "satisfying cleaning games",
+      "satisfying cleaning",
+      "satisfying cleaning deep clean",
+      "satisfying cleaning asmr",
+      "satisfying cleaning games offline"
+    ],
+    "openness": "open",
+    "top_apps_count": 10,
+    "top3_apps": [
+      "Satisfying Clean (100,000+)",
+      "Satisfying Cleaning Deep Clean (1,000,000+)",
+      "House Cleaning: ASMR Satisfy (1,000,000+)"
+    ]
+  },
+  {
+    "keyword": "satisfying organizing",
+    "cluster": "satisfying",
+    "lang": "en",
+    "autocompletes": [
+      "satisfying organizing games",
+      "satisfying organizing",
+      "satisfying organizing games offline"
+    ],
+    "openness": "dominated",
+    "top_apps_count": 10,
+    "top3_apps": [
+      "Tidy Up - Satisfeel ASMR (10,000,000+)",
+      "ASMR Restock: Fridge Organize (1,000,000+)",
+      "Tidy Puzzle: Perfect Satisfy (5,000,000+)"
+    ]
+  },
+  {
+    "keyword": "asmr sort",
+    "cluster": "asmr",
+    "lang": "en",
+    "autocompletes": [
+      "asmr sorting games",
+      "asmr sort",
+      "asmr sorting",
+      "water sort asmr",
+      "water sort asmr puzzle game"
+    ],
+    "openness": "dominated",
+    "top_apps_count": 10,
+    "top3_apps": [
+      "Water Sort ASMR Puzzle (10,000,000+)",
+      "Satisday ASMR: Organizing game (10,000,000+)",
+      "Satisfy & Sort ASMR (5,000+)"
+    ]
+  },
+  {
+    "keyword": "asmr cleaning",
+    "cluster": "asmr",
+    "lang": "en",
+    "autocompletes": [
+      "asmr cleaning games",
+      "asmr cleaning",
+      "asmr cleaning games offline",
+      "asmr cleaning home makeover",
+      "asmr cleaning offline"
+    ],
+    "openness": "dominated",
+    "top_apps_count": 10,
+    "top3_apps": [
+      "Perfect Makeover Cleaning ASMR (10,000,000+)",
+      "ASMR Satisfy: House Deep Clean (5,000,000+)",
+      "House Makeover: ASMR Cleaning (10,000,000+)"
+    ]
+  },
+  {
+    "keyword": "asmr room tidy",
+    "cluster": "asmr",
+    "lang": "en",
+    "autocompletes": [],
+    "openness": "open",
+    "top_apps_count": 10,
+    "top3_apps": [
+      "Tidy Room: Calm & Chill (1,000,000+)",
+      "Cozy Room:Tidy Tales (500,000+)",
+      "Cleaning ASMR: Tidy & Relax (500,000+)"
+    ]
+  },
+  {
+    "keyword": "find items",
+    "cluster": "find items",
+    "lang": "en",
+    "autocompletes": [
+      "find items games",
+      "find items",
+      "find items in pictures",
+      "find items games offline",
+      "find items app"
+    ],
+    "openness": "dominated",
+    "top_apps_count": 10,
+    "top3_apps": [
+      "Google’s Find Hub (1,000,000,000+)",
+      "Hidden Objects - Items Find (100,000+)",
+      "Find Hidden Objects - Spot It! (10,000,000+)"
+    ]
+  },
+  {
+    "keyword": "find and sort",
+    "cluster": "find items",
+    "lang": "en",
+    "autocompletes": [
+      "find and sort"
+    ],
+    "openness": "moderate",
+    "top_apps_count": 10,
+    "top3_apps": [
+      "Find Sort Match: Puzzle game (5,000,000+)",
+      "Cozy Sort: Relaxing Puzzle (10,000+)",
+      "Sortime - Goods Puzzle Sorting (1,000,000+)"
+    ]
+  },
+  {
+    "keyword": "find objects puzzle",
+    "cluster": "find items",
+    "lang": "en",
+    "autocompletes": [
+      "find me hidden objects puzzle",
+      "zoom art puzzle find objects",
+      "hidden objects find puzzle"
+    ],
+    "openness": "dominated",
+    "top_apps_count": 10,
+    "top3_apps": [
+      "Find Hidden Objects - Spot It! (10,000,000+)",
+      "Hidden Object Games: Seek It (10,000,000+)",
+      "Find It Out® - Hidden Object (10,000,000+)"
+    ]
+  },
+  {
+    "keyword": "hidden objects room",
+    "cluster": "hidden objects",
+    "lang": "en",
+    "autocompletes": [
+      "escape room hidden objects"
+    ],
+    "openness": "dominated",
+    "top_apps_count": 10,
+    "top3_apps": [
+      "Hidden Objects - Items Find (100,000+)",
+      "Find Hidden Objects - Spot It! (10,000,000+)",
+      "Hidden Objects Game: Find & Go (500,000+)"
+    ]
+  },
+  {
+    "keyword": "hidden items sort",
+    "cluster": "hidden objects",
+    "lang": "en",
+    "autocompletes": [],
+    "openness": "moderate",
+    "top_apps_count": 10,
+    "top3_apps": [
+      "Hidden Objects - Items Find (100,000+)",
+      "Hidden Spots - Hidden Objects (10,000,000+)",
+      "Store Sort! Fun Organize Game (500,000+)"
+    ]
+  },
+  {
+    "keyword": "部屋の片付け",
+    "cluster": "international_jp",
+    "lang": "ja",
+    "autocompletes": [
+      "部屋の片付け"
+    ],
+    "openness": "open",
+    "top_apps_count": 10,
+    "top3_apps": [
+      "Tidy Tales: 癒しの片付けゲーム (50,000+)",
+      "ファンタジー タイダー：魔法のクローゼット (500,000+)",
+      "Dreamy Room - 夢のような部屋 (10,000,000+)"
+    ]
+  },
+  {
+    "keyword": "仕分けパズル",
+    "cluster": "international_jp",
+    "lang": "ja",
+    "autocompletes": [
+      "仕分けパズル"
+    ],
+    "openness": "moderate",
+    "top_apps_count": 10,
+    "top3_apps": [
+      "麻雀クラッシュ：仕分けパズル (Mahjong Crush) (1,000,000+)",
+      "Item Escape - 3Dグッズ仕分けパズル (100,000+)",
+      "Goods Sort 3D：グッズトリプルソートパズルゲーム (10,000,000+)"
+    ]
+  },
+  {
+    "keyword": "ordenar habitacion",
+    "cluster": "international_es",
+    "lang": "es",
+    "autocompletes": [
+      "ordenar habitaciones",
+      "ordenar habitacion",
+      "juegos de ordenar habitaciones",
+      "juegos para ordenar habitaciones"
+    ],
+    "openness": "open",
+    "top_apps_count": 0,
+    "top3_apps": []
+  },
+  {
+    "keyword": "juegos de organizar",
+    "cluster": "international_es",
+    "lang": "es",
+    "autocompletes": [
+      "juegos de organizar",
+      "juegos de organizar casas",
+      "juegos de organizar sin internet",
+      "juegos de organizar cosas",
+      "juegos de organizar cosas sin internet"
+    ],
+    "openness": "open",
+    "top_apps_count": 0,
+    "top3_apps": []
+  },
+  {
+    "keyword": "organizar quarto",
+    "cluster": "international_pt",
+    "lang": "pt",
+    "autocompletes": [
+      "organizar quarto",
+      "jogo de organizar quarto",
+      "organizar o quarto"
+    ],
+    "openness": "open",
+    "top_apps_count": 10,
+    "top3_apps": [
+      "My Dream Room: Organizar Casa (10.000+)",
+      "Tidy Tales: Decorar Casas (50.000+)",
+      "Decoração de interior de casa (10.000.000+)"
+    ]
+  },
+  {
+    "keyword": "arrumar a casa",
+    "cluster": "international_pt",
+    "lang": "pt",
+    "autocompletes": [
+      "arrumar a casa",
+      "arrumar a casa jogo de arrumar casa",
+      "arrumar a casa e ganhar dinheiro",
+      "de arrumar a casa",
+      "joguinho de arrumar a casa"
+    ],
+    "openness": "open",
+    "top_apps_count": 10,
+    "top3_apps": [
+      "House Designer : Fix & Flip (100.000.000+)",
+      "Decor Life - Design de casa (100.000.000+)",
+      "Cronograma de Tarefas de Casa (500.000+)"
+    ]
+  },
+  {
+    "keyword": "zimmer aufraumen",
+    "cluster": "international_de",
+    "lang": "de",
+    "autocompletes": [
+      "zimmer aufräumen",
+      "zimmer aufräumen app",
+      "zimmer aufräumen spiel"
+    ],
+    "openness": "open",
+    "top_apps_count": 0,
+    "top3_apps": []
+  },
+  {
+    "keyword": "sortierspiel",
+    "cluster": "international_de",
+    "lang": "de",
+    "autocompletes": [
+      "sortierspiel",
+      "sortierspiele kostenlos deutsch",
+      "sortierspiele offline",
+      "kostenlose sortierspiele",
+      "waren sortierspiel"
+    ],
+    "openness": "open",
+    "top_apps_count": 0,
+    "top3_apps": []
+  },
+  {
+    "keyword": "ranger la chambre",
+    "cluster": "international_fr",
+    "lang": "fr",
+    "autocompletes": [
+      "ranger la chambre"
+    ],
+    "openness": "open",
+    "top_apps_count": 0,
+    "top3_apps": []
+  },
+  {
+    "keyword": "jeu de tri",
+    "cluster": "international_fr",
+    "lang": "fr",
+    "autocompletes": [
+      "jeu de tricotage",
+      "jeu de tri",
+      "jeu de tri de marchandises",
+      "jeu de tri gratuit",
+      "jeu de triples correspondances de type jdr"
+    ],
+    "openness": "open",
+    "top_apps_count": 0,
+    "top3_apps": []
+  },
+  {
+    "keyword": "방 정리",
+    "cluster": "international_kr",
+    "lang": "ko",
+    "autocompletes": [
+      "방 정리",
+      "방 정리 게임"
+    ],
+    "openness": "open",
+    "top_apps_count": 10,
+    "top3_apps": [
+      "방 정리 AI: 청소·정리정돈·비우기 (50+)",
+      "Cozy Tidy: 언패킹 & 3D 방 정리 퍼즐 (1+)",
+      "Room Reset: Tidy & Declutter (50+)"
+    ]
+  },
+  {
+    "keyword": "정리 퍼즐",
+    "cluster": "international_kr",
+    "lang": "ko",
+    "autocompletes": [
+      "정리 퍼즐",
+      "힐링 정리 퍼즐"
+    ],
+    "openness": "moderate",
+    "top_apps_count": 10,
+    "top3_apps": [
+      "A Little to the Left (1,000,000+)",
+      "힐링 정리 퍼즐: Brainstorming Master (1,000,000+)",
+      "상품 정리 3매치: 정리왕 되기 (1,000,000+)"
+    ]
+  }
+]
