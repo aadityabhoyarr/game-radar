@@ -6,7 +6,7 @@ from datetime import datetime, timezone, timedelta
 import json
 import logging
 import statistics
-from typing import Dict, List, Optional, Set, Tuple
+from typing import Any, Dict, List, Optional, Set, Tuple
 
 from radar.db import Database
 from radar.play_client import parse_install_bucket_midpoint
