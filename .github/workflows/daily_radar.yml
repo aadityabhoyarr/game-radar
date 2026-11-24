@@ -1,0 +1,48 @@
+name: Daily Game Radar
+on:
+  schedule:
+    - cron: "30 19 * * *"  
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  radar:
+    runs-on: ubuntu-latest
+    timeout-minutes: 330
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.13"
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt python-dateutil
+
+      - name: Download previous radar.db
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          mkdir -p data
+          gh release download latest-data -p "radar.db" -D data --clobber || echo "Starting fresh DB"
+
+      - name: Run daily pipeline
+        run: python -m radar run --mode daily --enrich-workers 2
+
+      - name: Checkpoint DB and upload to Release
+        if: always()
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          if [ -f data/radar.db ]; then
+            python -c "import sqlite3; c=sqlite3.connect('data/radar.db'); c.execute('PRAGMA wal_checkpoint(TRUNCATE)'); c.close()"
+          fi
+          gh release view latest-data >/dev/null 2>&1 || gh release create latest-data --title "Latest Radar Data" --notes "Automated daily DB and reports"
+          if [ -f data/radar.db ]; then
+            gh release upload latest-data data/radar.db --clobber
+          fi
+          if [ -d reports ]; then
+            zip -r reports.zip reports/
+            gh release upload latest-data reports.zip --clobber
+          fi
